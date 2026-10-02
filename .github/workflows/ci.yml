@@ -63,9 +63,9 @@ jobs:
           docker push ghcr.io/heman-333/frontend-sample:latest
 
 
-  # =========================
+  # ==========================
   # CD
-  # =========================
+  # ==========================
   deploy:
     needs: build
     runs-on: self-hosted
